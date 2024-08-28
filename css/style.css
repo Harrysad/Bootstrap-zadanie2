@@ -1,0 +1,29 @@
+.accordion-button::after {
+    display: none;
+}
+
+.accordion-button:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+.main-header {
+    color: grey;
+    font-size: 1.5em;
+}
+
+.accordion-button {
+    background-color: #f8f8f8;
+    color: #e6950a;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #e6950a;
+    background-color: #f8f8f8;
+    text-decoration: underline;
+}
+
+.accordion-button:not(.collapsed):hover {
+    color: grey;
+    text-decoration: underline;
+}
